@@ -1,0 +1,10 @@
+{%- if cookiecutter.jupyter == "Y" -%}
+ipywidgets>=7.5
+jupyterlab
+jupytext
+matplotlib
+nbdime
+pandas
+pandas-bokeh
+plotly
+{% endif %}

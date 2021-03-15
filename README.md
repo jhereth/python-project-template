@@ -23,6 +23,6 @@ PRs welcome. For ideas please see open issues or the following list
 
 ### todos
 
-Planned Features
+Planned Features:
 
 - (P3) Make Python version more flexible (instead of hardcoding it)
