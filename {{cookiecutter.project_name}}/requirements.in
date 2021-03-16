@@ -1,3 +1,4 @@
+tqdm
 {%- if cookiecutter.jupyter == "Y" -%}
 ipywidgets>=7.5
 jupyterlab
