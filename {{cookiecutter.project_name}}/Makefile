@@ -14,13 +14,13 @@ requirements.txt: bootstrap requirements.in
 install-requirements: requirements.txt
 	.venv/bin/pip-sync -v requirements.txt
 
-{%- if cookiecutter.jupyter == "Y" -%}
+{% if cookiecutter.jupyter == "Y" -%}
 @PHONY: install-jupyterlab-extensions
 install-jupyterlab-extensions:
 	.venv/bin/nbdime extensions --enable
 	.venv/bin/jupyter labextension install jupyterlab-plotly@4.14.3
 
-{% endif %}
+{% endif -%}
 @PHONY: update-requirements
 update-requirements: 
 	.venv/bin/pip-compile -vU requirements.in

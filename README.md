@@ -25,4 +25,10 @@ PRs welcome. For ideas please see open issues or the following list
 
 Planned Features:
 
+- (P2) Adding pytest to template
+- (P2) Adding pre-commit to template
+- (P2) Testing for the cookiecutter template
+- (P2) Adding adr (or something similar) to document decisions
 - (P3) Make Python version more flexible (instead of hardcoding it)
+- (P3) Something smart to keep Jupyterlab Extensions and python packages in sync
+
