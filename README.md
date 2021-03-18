@@ -28,7 +28,8 @@ Planned Features:
 - (P2) Adding pytest to template
 - (P2) Adding pre-commit to template
 - (P2) Testing for the cookiecutter template
-- (P2) Adding adr (or something similar) to document decisions
+- (P2) Adding [adr](https://github.com/npryce/adr-tools) (or something similar) to document decisions
+- (P2.5) some linter/autofromatter for Jupyter
 - (P3) Make Python version more flexible (instead of hardcoding it)
 - (P3) Something smart to keep Jupyterlab Extensions and python packages in sync
 
